@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <title>calculator</title>
+</head>
+<body>
+<h1 >Calculator</h1>
+<form class="form-horizontal" action="action.php" method="post">
+    <p>Number 1 <input class="form-control" type="text" name="number1"></p>
+    <p>Number 2 <input class="form-control" type="text" name="number2"></p>
+    <p>Action <select class="form-control" name="action_type">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="=">=</option>
+        </select>
+    </p>
+    <p><input class="btn btn-success btn-lg" type="submit" name="submit"></p>
+</form>
+</body>
+</html>
